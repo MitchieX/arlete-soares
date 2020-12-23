@@ -1,0 +1,43 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: sans-serif;
+  font-size: 1rem;
+}
+
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+}
+
+.arlete-main-picture {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.main-quote {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 991px){
+  .arlete-main-picture {
+    background-image: url(../files/celular-arlete.png) !important;
+    
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .main-quote{
+    height: 0;
+  }
+
+
+
+}
